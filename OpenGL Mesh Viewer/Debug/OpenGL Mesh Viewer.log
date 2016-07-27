@@ -1,0 +1,32 @@
+﻿  Primary.cpp
+j:\ashwin\code\c++\opengl mesh viewer\opengl mesh viewer\primary.cpp(36): warning C4805: '!=': unsafe mix of type 'int' and type 'bool' in operation
+Primary.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function "void __cdecl loop(void)" (?loop@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "void __cdecl loop(void)" (?loop@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwSetInputMode referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "void __cdecl loop(void)" (?loop@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function "void __cdecl loop(void)" (?loop@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+Primary.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "void __cdecl loop(void)" (?loop@@YAXXZ)
+Primary.obj : error LNK2001: unresolved external symbol __imp__glewExperimental
+Reader.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) referenced in function "void __cdecl `dynamic initializer for 'importer''(void)" (??__Eimporter@@YAXXZ)
+Reader.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) referenced in function "void __cdecl `dynamic atexit destructor for 'importer''(void)" (??__Fimporter@@YAXXZ)
+Secondary.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+Secondary.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+Secondary.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+Secondary.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+Secondary.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+Secondary.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+Secondary.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+J:\Ashwin\Code\_Libs\_OpenGL Modern\libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+J:\Ashwin\Code\_Libs\_OpenGL Modern\libs\glfw3dll.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+J:\Ashwin\Code\_Libs\_OpenGL Modern\libs\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+J:\Ashwin\Code\_Libs\_OpenGL Modern\libs\glew32s.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+J:\Ashwin\Code\_Libs\_OpenGL Modern\libs\glew32mx.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+J:\Ashwin\Code\_Libs\_OpenGL Modern\libs\glew32mxs.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+J:\Ashwin\Code\_Libs\_OpenGL Modern\libs\SOIL.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+J:\Ashwin\Code\_Libs\_OpenGL Modern\libs\assimp.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+J:\Ashwin\Code\C++\OpenGL Mesh Viewer\Debug\OpenGL Mesh Viewer.exe : fatal error LNK1120: 21 unresolved externals

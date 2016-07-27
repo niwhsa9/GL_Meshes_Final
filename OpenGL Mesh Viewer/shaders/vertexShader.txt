@@ -1,0 +1,21 @@
+#version 450
+layout(location=0) in vec3 vp;
+layout(location=1) in vec3 normal;
+layout(location=2) in vec2 texCoord;
+
+out vec4 FragPos;
+out vec4 Normal;
+out vec2 TexCoord;
+
+uniform mat4 view;
+uniform mat4 proj;
+uniform mat4 model;
+uniform mat4 nmodel;
+
+
+void main() {
+	gl_Position =  proj * view * model * vec4(vp, 1.0); 
+	Normal = nmodel * vec4(normal.x, normal.y, normal.z, 1.0); 
+	FragPos = model * vec4(vp, 1.0);
+    	TexCoord = texCoord;
+}

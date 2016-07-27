@@ -1,0 +1,13 @@
+﻿  Primary.cpp
+j:\ashwin\code\c++\opengl mesh viewer\opengl mesh viewer\primary.cpp(78): warning C4305: '+=': truncation from 'double' to 'float'
+j:\ashwin\code\c++\opengl mesh viewer\opengl mesh viewer\primary.cpp(79): warning C4305: '-=': truncation from 'double' to 'float'
+j:\ashwin\code\c++\opengl mesh viewer\opengl mesh viewer\primary.cpp(80): warning C4305: '-=': truncation from 'double' to 'float'
+j:\ashwin\code\c++\opengl mesh viewer\opengl mesh viewer\primary.cpp(81): warning C4305: '+=': truncation from 'double' to 'float'
+j:\ashwin\code\c++\opengl mesh viewer\opengl mesh viewer\primary.cpp(95): warning C4805: '!=': unsafe mix of type 'int' and type 'bool' in operation
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'J:\Ashwin\Code\C++\OpenGL Mesh Viewer\x64\Debug\SOIL.pdb'; linking object as if no debug info
+SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'J:\Ashwin\Code\C++\OpenGL Mesh Viewer\x64\Debug\SOIL.pdb'; linking object as if no debug info
+SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'J:\Ashwin\Code\C++\OpenGL Mesh Viewer\x64\Debug\SOIL.pdb'; linking object as if no debug info
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'J:\Ashwin\Code\C++\OpenGL Mesh Viewer\x64\Debug\SOIL.pdb'; linking object as if no debug info
+  OpenGL Mesh Viewer.vcxproj -> J:\Ashwin\Code\C++\OpenGL Mesh Viewer\x64\Debug\OpenGL Mesh Viewer.exe
+  OpenGL Mesh Viewer.vcxproj -> J:\Ashwin\Code\C++\OpenGL Mesh Viewer\x64\Debug\OpenGL Mesh Viewer.pdb (Partial PDB)
